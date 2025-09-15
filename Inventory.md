@@ -11,15 +11,21 @@ A static inventory file is typically a plain text file (usually named hosts or i
 ### inventory file: hosts
 
 [webservers]
+
 web1.example.com
+
 web2.example.com
 
 [dbservers]
+
 db1.example.com
+
 db2.example.com
 
 [all:vars]
+
 ansible_user=admin
+
 ansible_ssh_private_key_file=/path/to/key
 
 ## YAML
@@ -84,4 +90,5 @@ Here is an example of a dynamic inventory script for AWS EC2:
 ## USAGE
 
 ansible-playbook -i inventory <Adhoc command or Playbook.yml>
+
 
