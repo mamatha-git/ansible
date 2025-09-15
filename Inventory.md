@@ -22,7 +22,8 @@ ansible_ssh_private_key_file=/path/to/key
 
 -----
 
-### YAML 
+### YAML
+```ini
 
 all:
   vars:
@@ -40,6 +41,7 @@ all:
 -------
 
 ###  DYNAMIC INVENTORY
+```ini
 
 #!/usr/bin/env python
 import json
@@ -78,10 +80,12 @@ if __name__ == '__main__':
 ------
 
 ### USAGE
+```ini
 
 ansible-playbook -i inventory/hosts playbooks/example-playbook.yml
 # OR for dynamic inventory:
 ansible-playbook -i inventory/dynamic_aws_inventory.py playbooks/example-playbook.yml
+
 
 
 
