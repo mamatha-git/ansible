@@ -80,10 +80,10 @@ if __name__ == '__main__':
 
 ### USAGE
 
-
 ansible-playbook -i inventory/hosts playbooks/example-playbook.yml
 # OR for dynamic inventory:
 ansible-playbook -i inventory/dynamic_aws_inventory.py playbooks/example-playbook.yml
+
 
 
 
