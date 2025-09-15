@@ -1,6 +1,6 @@
 # Comparison with Shell Scripting
 
- ● Shell Scripting works only for Linux.
+● Shell Scripting works only for Linux.
 
 ● Becomes complex and less readable(for non-experts) as the script size goes high.
 
@@ -20,3 +20,4 @@ echo "hi"
 ● Scalability and flexibility
 
 Easily and quickly scale the systems you automate through a modular design that supports a large range of operating systems, cloud platforms, and network devices.
+
