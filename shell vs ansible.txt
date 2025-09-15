@@ -1,9 +1,10 @@
-Comparison with Shell Scripting
-Shell Scripting works only for Linux.
+# Comparison with Shell Scripting
 
-Becomes complex and less readable(for non-experts) as the script size goes high.
+ ● Shell Scripting works only for Linux.
 
-Idempotence and predictability
+● Becomes complex and less readable(for non-experts) as the script size goes high.
+
+● Idempotence and predictability
 
 When the system is in the state your playbook describes Ansible does not change anything, even if the playbook runs multiple times.
 
@@ -16,5 +17,6 @@ set -e
 mkdir test-demo
 echo "hi"
 
-Scalability and flexibility
+● Scalability and flexibility
+
 Easily and quickly scale the systems you automate through a modular design that supports a large range of operating systems, cloud platforms, and network devices.
